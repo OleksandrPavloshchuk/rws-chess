@@ -1,0 +1,81 @@
+.waiting-opponent {
+  background-image: url("../images/loading.gif");
+  width: 128px;
+  height: 15px;
+}
+
+.board-wrapper {
+    padding: 0;
+}
+
+.board {
+  margin: 1em;
+  padding: 1em;
+}
+
+.move-list {
+  margin: 1em;
+  width: 18em;
+  min-width: 16em;
+}
+
+.move-list-body {
+  max-height: 33em;
+  overflow: scroll;
+}
+
+.conversion-panel {
+  margin: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  width: 3em;
+}
+
+.cell-label {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.Dropable {
+  width: 100%;
+  height: 100%;
+}
+
+.board-cell {
+  border: 1px seagreen solid;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cell-white {
+  background-color: wheat;
+}
+
+.cell-black {
+  background-color: seagreen;
+}
+
+.cell-available.cell-black {
+  background-color: mediumaquamarine;
+}
+
+.cell-available.cell-white {
+  background-color: beige;
+}
+
+.piece {
+  position: relative;
+  display: block;
+  z-index: 100;
+  background-image: url("../images/Chess_Pieces_Sprite.svg");
+}
+
+.haze {
+  background-color: lime;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 99;
+}
+
